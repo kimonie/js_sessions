@@ -30,7 +30,7 @@ h1 {
     letter-spacing: .5rem;
 }
 
-
+/* Loader */
 .loader {
     position: fixed;
     top: 0;
@@ -46,3 +46,40 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Image container */
+
+.image-container {
+    margin: 2rem 30%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .image-container {
+        margin: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
